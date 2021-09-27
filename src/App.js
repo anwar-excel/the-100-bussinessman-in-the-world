@@ -1,14 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Businessman from './components/Businessman/Businessman';
 import Header from './components/Header/Header';
-import Card from './components/Card/Card';
+
+
+
+
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Card />
+      <Businessman />
     </div>
+
   );
 }
 

@@ -1,0 +1,13 @@
+.box{
+    height:auto;
+   text-align:center;
+    
+}
+.btn-man{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius:5px;
+    cursor: pointer;
+}

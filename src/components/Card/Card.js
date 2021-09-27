@@ -1,12 +1,12 @@
 import React from 'react';
-import './Card.css';
-const Card = () => {
+
+const Card = (props) => {
     return (
-        <div >
-            <div className="card">
-                <h2>card hfvbeoug jfbgwvhb uh</h2>
-            </div>
-            <h2>card hfvbeoug jfbgwvhb uh</h2>
+        <div className="card shadow p-3 mb-5 bg-body rounded pt-3">
+            {/* <h6>Id Count:{man.length}</h6> */}
+            <h2>Name:</h2>
+            <p>Salary: </p>
+
 
         </div>
     );

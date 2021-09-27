@@ -1,0 +1,25 @@
+.businessman-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-left: 10px;
+    padding-top: 30px;
+
+    
+}
+
+.center{
+    text-align: center;
+}
+.right-side{
+    padding-top: 30px;
+    margin-left: 20px;
+    
+}
+.btn-man{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius:5px;
+}
