@@ -5,6 +5,7 @@ const Card = (props) => {
     // console.log(props.cart)
     const { cart } = props;
     let total = 0;
+    // let dollor = '$';
     for (const data of cart) {
         total = total + data.salary;
     }
