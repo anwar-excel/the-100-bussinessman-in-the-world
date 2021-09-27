@@ -1,8 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+
 import './Man.css'
 
 const Man = (props) => {
     const { name, age, salary, nationality, gender, profession, image } = props.man;
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
 
     return (
         <div className="box  card shadow p-3 mb-5 bg-body rounded pt-3">
@@ -15,7 +19,7 @@ const Man = (props) => {
                 <h6>Profession: {profession}</h6>
                 <h6>Gender: {gender}</h6>
 
-                <button onClick={() => props.handleAddToMan(props.man)} className="btn-man">Add Man</button>
+                <button onClick={() => props.handleAddToMan(props.man)} className="btn-man">{element}Add Man</button>
             </div>
 
 

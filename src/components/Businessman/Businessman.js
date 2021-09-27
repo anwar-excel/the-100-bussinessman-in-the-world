@@ -13,8 +13,9 @@ const Businessman = () => {
             .then(data => setBusinessmans(data))
     }, [])
 
-    const handleAddToMan = (ma) => {
-        const newMan = [...man, ma]
+    const handleAddToMan = (data) => {
+        // console.log(product.name);
+        const newMan = [...man, data]
         setMan(newMan)
     }
 
@@ -33,11 +34,11 @@ const Businessman = () => {
                     }
                 </div>
                 <div className=" col-md-4 right-side  ">
-                    <h2>length{man.length}</h2>
-                    <Card data={man} />
-                    {
-                        man.map(friend => <Card data={friend}></Card>)
-                    }
+                    {/* <h2>length{man.length}</h2> */}
+                    <Card cart={man} />
+                    {/* {
+                        man.map(friend => <Card cart={friend}></Card>)
+                    } */}
                 </div>
             </div>
         </div >
