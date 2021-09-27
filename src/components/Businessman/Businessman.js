@@ -13,9 +13,10 @@ const Businessman = () => {
             .then(data => setBusinessmans(data))
     }, [])
 
-    // const handleAddToMan = (business) => {
-    //     console.log(business.name);
-    // }
+    const handleAddToMan = (ma) => {
+        const newMan = [...man, ma]
+        setMan(newMan)
+    }
 
     return (
         <div>
@@ -27,13 +28,16 @@ const Businessman = () => {
                     {
                         businessmans.map(business => <Man man={business}
                             image={business.image}
-                        // handleAddToMan={handleAddToMan}
+                            handleAddToMan={handleAddToMan}
                         ></Man>)
                     }
                 </div>
                 <div className=" col-md-4 right-side  ">
-                    <h2>length{ }</h2>
-                    <Card />
+                    <h2>length{man.length}</h2>
+                    <Card data={man} />
+                    {
+                        man.map(friend => <Card data={friend}></Card>)
+                    }
                 </div>
             </div>
         </div >

@@ -15,7 +15,7 @@ const Man = (props) => {
                 <h6>Profession: {profession}</h6>
                 <h6>Gender: {gender}</h6>
 
-                <button onClick={() => props.handleAddToMan(props.businessman)} className="btn-man">Add Man</button>
+                <button onClick={() => props.handleAddToMan(props.man)} className="btn-man">Add Man</button>
             </div>
 
 
