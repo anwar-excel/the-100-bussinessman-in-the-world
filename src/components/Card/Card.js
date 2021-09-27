@@ -16,8 +16,9 @@ const Card = (props) => {
 
             <p>Salary:{props.cart.length} </p>
             <div>
-                <h2>{props.name}</h2>
-                {/* <h4>{salary}</h4> */}
+                {
+                    cart.map(man => <h5>Name:{man.name}</h5>)
+                }
             </div>
         </div>
     );
