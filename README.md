@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+netlify link:https://top-100-bussinessman-in-the-world.netlify.app/
+git link : https://github.com/ProgrammingHeroWC4/the-superhero-direction-anwar-excel
 
+data collect from :
+https://www.celebritynetworth.com/list/top-100-richest-people-in-the-world/
 ## Available Scripts
 
 In the project directory, you can run:

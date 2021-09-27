@@ -11,10 +11,10 @@ const Card = (props) => {
     return (
         <div className="card shadow p-3 mb-5 bg-body rounded pt-3">
 
-            <p>salary: {total}</p>
-            <h3>name{props.name}</h3>
+            <p>Length:{props.cart.length} </p>
 
-            <p>Salary:{props.cart.length} </p>
+            <p>salary: {total}</p>
+
             <div>
                 {
                     cart.map(man => <h5>Name:{man.name}</h5>)
