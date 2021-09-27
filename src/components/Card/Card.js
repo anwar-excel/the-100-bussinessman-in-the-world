@@ -14,7 +14,7 @@ const Card = (props) => {
 
             <p>Length:{props.cart.length} </p>
 
-            <p>salary: {total}</p>
+            <p>salary: ${total}</p>
 
             <div>
                 {
